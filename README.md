@@ -7,9 +7,7 @@ To start your project, make sure you have git installed and clone this repositor
 
 When you're done, go into the folder and install the packages:
 
-`cd sd-hack`
-
-`cd node`
+`cd sd-hack/node`
 
 `npm install`
 
