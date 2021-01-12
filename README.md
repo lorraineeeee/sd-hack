@@ -17,4 +17,4 @@ Run the app using
 
 `npm start` 
 
-and start your work.
+and go to http://localhost:5000/ to start your work.
