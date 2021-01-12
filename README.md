@@ -9,6 +9,8 @@ When you're done, go into the folder and install the packages:
 
 `cd sd-hack`
 
+`cd node`
+
 `npm install`
 
 You should see a new folder named "node_mudules" after it finishes.
