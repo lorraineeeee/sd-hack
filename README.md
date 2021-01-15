@@ -1,5 +1,7 @@
 # SDHacks Web Dev Hackpack
 
+![CSES_logo](./resource/cseslogo.png)
+
 We'll be building an app that will take user input, save it to a database, and display it on the page. Building a full stack application like this means that you'll write front-end, back-end, and database code. Use this as a starting point and get familiar with all parts of the stack so you can hack a cool site at SDHacks!
 
 ## Getting Started
@@ -181,4 +183,4 @@ In case you want to stop the server, simply hit `CTRL + C` on your keyboard.
 We wish you find this project helpful and have a great experience at SDHacks!
 
 #### Acknowledgement
-Built by CSES, based on [this GitHub Repository](https://github.com/athenahacks/hackpack-web)
+Built by CSES, based on [this GitHub Repository](https://github.com/athenahacks/hackpack-web).
