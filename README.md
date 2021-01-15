@@ -31,10 +31,10 @@ git clone <repo address>
 ```
 Go to the directory you cloned your repository in and install the necessary packages: 
 ```sh
-cd hackpack-web
+cd sd-hack
 npm install
 ```
-The repository has a `package.json` folder which essentially lists out all the dependencies of your project. The second command will go through all the dependencies and install them. This might take a while. 
+The repository has a `package.json` folder which essentially lists out all the dependencies of your project. The second command will go through all the dependencies and install them. This might take a while, possibly a few minutes. Please wait patiently.
 
 ## Setting up the backend 
 The entry point for our project will be a file called `server.js`. To create this file, navigate to the cloned repo in your terminal and enter the following command:
@@ -164,17 +164,21 @@ Walkthrough of the code:
  - The `renderData()` function goes through all the data passed in as an arugment and appends it (or adds it) to the list on the home page. 
  
 #### Final Step! 
-Open your `index.html` file, and include the `client.js` file you just created in order to add the functionality to your static website. Do this by entering the following line of code right before the ending `</body>` tag:
+Open your `index.html` file in the `public` folder, and include the `client.js` file you just created in order to add the functionality to your static website. Do this by entering the following line of code right before the ending `</body>` tag:
 ```sh
 <script type="text/javascript" src=/client.js></script>
 ```
 
 ## Building and running the app 
-We're done! To start the app, go back to your terminal on the root directory and type: 
+We're done! To start the app, **go back to your terminal on the root directory** and type: 
 ```sh
 node server.js
 ```
-Now open your browser and navigate to `localhost:3000` and you should see the interface of **Next Todo**.
+Now open your browser and navigate to http://localhost:3000/ and you should see the interface of **Next Todo**.
+
+In case you want to stop the server, simply hit `CTRL + C` on your keyboard.
+
+We wish you find this project helpful and have a great experience at SDHacks!
 
 #### Acknowledgement
 Built by CSES, based on [this GitHub Repository](https://github.com/athenahacks/hackpack-web)
