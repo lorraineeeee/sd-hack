@@ -183,4 +183,4 @@ In case you want to stop the server, simply hit `CTRL + C` on your keyboard.
 We wish you find this project helpful and have a great experience at SDHacks!
 
 #### Acknowledgement
-Built by CSES, based on [this GitHub Repository](https://github.com/athenahacks/hackpack-web).
+Built by CSES@UCSD, based on [this GitHub Repository](https://github.com/athenahacks/hackpack-web).
