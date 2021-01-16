@@ -29,7 +29,7 @@ Make sure you have the following installed:
 
 To start, make sure you have git installed, and clone this repository
 ```sh
-git clone <repo address>
+git clone https://github.com/TonyTang2001/sd-hack.git
 ```
 Go to the directory you cloned your repository in and install the necessary packages: 
 ```sh
